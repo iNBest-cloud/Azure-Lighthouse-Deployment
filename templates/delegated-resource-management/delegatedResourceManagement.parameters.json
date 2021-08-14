@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "iNBest.cloud Managed Services"
+        },
+        "mspOfferDescription": {
+            "value": "iNBest.cloud Managed Services"
+        },
+        "managedByTenantId": {
+            "value": "261bc682-cd4a-4ee7-8ae4-9e82e1342e72"
+        },
+        "authorizations": {
+            "value": [
+                { 
+                    "principalId": "848f7020-5f0d-42ed-9cb2-ab90c03d5b4b", 
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                    "principalIdDisplayName": "Customer Delegates" 
+                }, 
+                { 
+                    "principalId": "848f7020-5f0d-42ed-9cb2-ab90c03d5b4b", 
+                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+                    "principalIdDisplayName": "Customer Delegates"
+                    
+                },
+                { 
+                    "principalId": "848f7020-5f0d-42ed-9cb2-ab90c03d5b4b", 
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Customer Delegates"
+                    
+                }
+                    ]
+                }                
+        }
+}
